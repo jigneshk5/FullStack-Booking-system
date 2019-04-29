@@ -1,0 +1,60 @@
+{
+  "name": "newp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "firebase": "^5.8.3",
+    "firebaseui": "^3.5.2",
+    "luxon": "^1.11.3",
+    "moment": "^2.24.0",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.5.22",
+    "vue-datetime": "^1.0.0-beta.10",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-google-autocomplete": "^1.1.0",
+    "vue-googlemaps": "^0.1.2",
+    "vue-router": "^3.0.1",
+    "vuejs-countdown-timer": "^2.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
